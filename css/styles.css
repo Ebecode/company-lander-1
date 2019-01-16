@@ -73,6 +73,64 @@ body,html {
     font-size: 3rem;
 }
 
+/* Content section */
+.content-section {
+    padding: 100px;
+}
+
+/* Services styles */
+#services {
+    display: grid;
+    grid-template-rows:  100px repeat(4,1fr) 100px;
+    grid-template-columns: 100px repeat(3,1fr) 100px;
+
+    padding: 20px;
+}
+.service-head {
+    grid-row: 2 / 3;
+    grid-column: 1 / 7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service {
+    grid-row: 3 / 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px;
+
+    text-align: center;
+    font-size: 16px;
+}
+.service-1 {
+    grid-column: 2 / 3;
+}
+.service-2 {
+    grid-column: 3 / 4;
+}
+.service-3 {
+    grid-column: 4 / 5;
+}
+.icon-box {
+    background-color: #468a26;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Portfolio styles */
+#portfolio {
+    background-color: #ddd;
+}
+
 /* Input styles */
 .btn {
     color: #fff;
@@ -87,3 +145,5 @@ body,html {
     cursor: pointer;
     transform: scale(1.05,1.05);
 }
+
+
