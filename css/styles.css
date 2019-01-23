@@ -7,7 +7,7 @@ light: #e4e4e4;
 
 body,html {
     margin: 0;
-    
+    padding: 0;
     font-size: 20px;
     font-family: serif;
     
@@ -40,9 +40,11 @@ section h1,section h2,section p {
 
 img {
     max-width: 95%;
+    height: 300px;
     display: block;
-    object-fit: contain;
-
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
 }
 
 button {
@@ -136,4 +138,21 @@ header h1 {
 .circle i {
     color: #fff;
     text-align: center;
+}
+#services .service {
+    padding: 0 1rem;
+}
+
+/* Portfolio */
+#portfolio {
+    background-color: #e4e4e4;
+}
+#portfolio p {
+    font-style: italic;
+}
+.milestone-p {
+    text-align: left;
+}
+.milestone-p p {
+    font-style: normal;
 }
