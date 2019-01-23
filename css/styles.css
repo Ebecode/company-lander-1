@@ -7,7 +7,7 @@ light: #e4e4e4;
 
 body,html {
     margin: 0;
-    padding: 0 0.8rem;
+    
     font-size: 20px;
     font-family: serif;
     
@@ -57,6 +57,7 @@ button {
 
 main>section {
     padding: 6rem 0.08rem;
+    
 }
 
 section>p {
@@ -123,3 +124,16 @@ header h1 {
 }
 
 /* Services */
+#services .circle-sm {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color: #109121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle i {
+    color: #fff;
+    text-align: center;
+}
